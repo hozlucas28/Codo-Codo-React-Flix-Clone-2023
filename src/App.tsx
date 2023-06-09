@@ -1,3 +1,5 @@
+import AppRouterProvider from './routes/app.routerProvider'
+
 export default function App() {
-	return <div>Hellow World!</div>
+	return <AppRouterProvider />
 }
