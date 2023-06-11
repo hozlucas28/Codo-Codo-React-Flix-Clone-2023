@@ -1,7 +1,7 @@
+import { auth } from '@config/firebase/firebase.auth'
 import { signInWithPopup } from 'firebase/auth'
 import { authProviderObj as authProviderObjType, authProvider as authProviderType, providers } from './types/providers.types'
 import SignInReturn from './interfaces/SignInReturn.interface'
-import { auth } from '../../../config/firebase/firebase.auth'
 
 export default async function signInWithProviderPopUp(provider: providers): Promise<SignInReturn> {
 	let { user, token, credential }: SignInReturn = {

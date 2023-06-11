@@ -1,5 +1,5 @@
+import { auth } from '@config/firebase/firebase.auth'
 import { User, signInWithEmailAndPassword } from 'firebase/auth'
-import { auth } from '../../../config/firebase/firebase.auth'
 
 export default async function signInWithAnExistingAccount({
 	email,
