@@ -1,4 +1,4 @@
-import { auth } from '@config/firebase/firebase.auth'
+import { auth } from '@core/config/firebase/firebase.auth'
 import { User, createUserWithEmailAndPassword } from 'firebase/auth'
 
 export default async function createUser({ email, password }: { email: string; password: string }): Promise<User | null> {

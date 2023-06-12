@@ -1,4 +1,4 @@
-import { auth } from '@config/firebase/firebase.auth'
+import { auth } from '@core/config/firebase/firebase.auth'
 import { signInAnonymously } from 'firebase/auth'
 import SignInReturn from './interfaces/SignInReturn.interface'
 

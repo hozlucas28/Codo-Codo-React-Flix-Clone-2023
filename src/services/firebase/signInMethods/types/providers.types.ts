@@ -1,6 +1,6 @@
+import { githubAuthProvider, googleAuthProvider } from '@core/config/firebase/firebase.auth'
 import { GithubAuthProvider, GoogleAuthProvider } from 'firebase/auth'
 import { AuthProvider, AuthProviderObj } from '../interfaces/AuthProviders.interface'
-import { githubAuthProvider, googleAuthProvider } from '../@config/firebase/firebase.auth'
 
 export type providers = 'github' | 'google'
 

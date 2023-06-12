@@ -1,4 +1,4 @@
-import { auth } from '@config/firebase/firebase.auth'
+import { auth } from '@core/config/firebase/firebase.auth'
 import { signInWithPopup } from 'firebase/auth'
 import { authProviderObj as authProviderObjType, authProvider as authProviderType, providers } from './types/providers.types'
 import SignInReturn from './interfaces/SignInReturn.interface'

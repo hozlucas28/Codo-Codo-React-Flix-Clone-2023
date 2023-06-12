@@ -1,4 +1,4 @@
-import { auth } from '@config/firebase/firebase.auth'
+import { auth } from '@core/config/firebase/firebase.auth'
 import { signInWithRedirect } from 'firebase/auth'
 import { authProvider as authProviderType, providers } from './types/providers.types'
 
