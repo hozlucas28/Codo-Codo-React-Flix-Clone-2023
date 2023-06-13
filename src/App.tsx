@@ -1,5 +1,10 @@
-import AppRouterProvider from './routes/app.routerProvider'
+import AppProvider from '@core/providers/AppProvider'
+import RouterProvider from '@/core/routes/components/RouterProvider'
 
 export default function App() {
-	return <AppRouterProvider />
+	return (
+		<AppProvider>
+			<RouterProvider />
+		</AppProvider>
+	)
 }
