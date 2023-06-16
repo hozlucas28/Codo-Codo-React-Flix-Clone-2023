@@ -23,11 +23,11 @@
 
 		/* Paths */
 		"paths": {
-			"@/*": ["./src/*"],
 			"@assets/*": ["./src/assets/*"],
 			"@core/*": ["./src/core/*"],
 			"@pages/*": ["./src/pages/*"],
-			"@services/*": ["./src/services/*"]
+			"@services/*": ["./src/services/*"],
+			"@utils/*": ["./src/utils/*"]
 		}
 	},
 	"include": ["src"],
