@@ -5,9 +5,9 @@ import ROUTES from './constants/ROUTES'
 const AuthenticatedUser = lazy(() => import('./components/AuthenticatedUser'))
 const NotAuthenticatedUser = lazy(() => import('./components/NotAuthenticatedUser'))
 
-const HomeView = lazy(() => import('@/pages/home/views/Home.view'))
-const SignInView = lazy(() => import('@/pages/signIn/views/SignIn.view'))
-const SignUpView = lazy(() => import('@/pages/signUp/views/SignUp.view'))
+const HomeView = lazy(() => import('@pages/home/views/Home.view'))
+const SignInView = lazy(() => import('@pages/signIn/views/SignIn.view'))
+const SignUpView = lazy(() => import('@pages/signUp/views/SignUp.view'))
 
 const router = createBrowserRouter([
 	{
