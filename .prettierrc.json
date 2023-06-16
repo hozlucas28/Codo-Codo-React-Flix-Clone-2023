@@ -22,11 +22,11 @@
 	"importOrder": [
 		"^react(.*)",
 		"<THIRD_PARTY_MODULES>",
-		"^@/(.*)$",
 		"^@assets/(.*)$",
 		"^@core/(.*)$",
 		"^@pages/(.*)$",
 		"^@services/(.*)$",
+		"^@utils/(.*)$",
 		"routes/",
 		"pages/",
 		"constants/",
