@@ -1,3 +1,4 @@
+/// <reference types="vite-plugin-svgr/client" />
 import RouterProvider from '@/core/routes/components/RouterProvider'
 import AppProvider from '@core/providers/AppProvider'
 
